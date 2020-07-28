@@ -1,0 +1,27 @@
+﻿{
+"manifest_version": 2,
+    "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["js/jquery-3.2.1.min.js", "js/habbidplayer.js", "js/executaRadio.js"]
+    }
+  ],
+"name": "Habbid",
+"description": "A extensão de uma das comunidades mais populares da internet. Escute a rádio e interaja conosco!",
+"version": "1.0",
+"background": {
+    "page": "background.html",
+	"persistent": true
+  },
+"browser_action": {
+          "default_title": "Habbid",
+          "default_popup": "popup.html"
+        },
+"icons": {
+	"128": "img/128.png"	
+},
+"permissions": [
+    "tabs",
+    "http://*/*", "https://*/*", "background"
+]
+}

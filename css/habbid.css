@@ -1,0 +1,15 @@
+body{background:url(../img/fundo.png); margin:0px}
+#corpoHabbid {width:100%; height:auto; min-width:300px;}
+#barraSuperior {width:100%; height:70px; background-color: #8596AB; border-bottom:solid 5px #6C7E95; margin-top:0px; padding-top:1px; min-width:300px;}
+#logoSuperior {width:160px; height:39px; margin:10px 10%; background-image:url(../img/habbid.png); float:left;}
+.contentD {width:calc(100% - 30px); height:auto; margin:20px auto; border-radius:6px; font-family:'Droid Sans', Arial, sans-serif; font-size:13px; padding:10px; background-color: rgba(210, 219, 232, 0.7);}
+.texto{margin-top:7px;}
+.texto a{color:#222;}
+.texto a:hover{color:#111}
+#avatarRadio {width:64px; height:110px; margin-top:10px;}
+#botao {width:56px; height:56px; margin-right:20px; margin-top:3px; float:right; cursor:pointer;}
+.botaoPlay {background-image:url(../img/play.png)}
+.botaoPlay:hover {background-image:url(../img/play-hover.png)}
+.botaoPause {background-image:url(../img/pause.png)}
+.botaoPause:hover {background-image:url(../img/pause-hover.png)}
+#noticiasD a{color:#222}
